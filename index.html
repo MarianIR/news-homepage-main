@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | News homepage</title>
+
+    <link rel="stylesheet" href="./scss/main.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <!-- //////////////// -->
+    <header class="header-section">
+      <img
+        src="./images/logo.svg"
+        alt="this is the logo"
+        width="30px"
+        height="20px"
+        class="logo"
+      />
+      <img src="./images/icon-menu.svg" alt="open menu" class="open-menu" />
+      <nav class="navigation">
+        <ul class="nav-list">
+          <li class="list-item"><a href="#" class="list-link">Home</a></li>
+          <li class="list-item"><a href="#" class="list-link">New</a></li>
+          <li class="list-item"><a href="#" class="list-link">Popular</a></li>
+          <li class="list-item"><a href="#" class="list-link">Trending</a></li>
+          <li class="list-item">
+            <a href="#" class="list-link">Categories</a>
+          </li>
+        </ul>
+
+        <img
+          src="./images/icon-menu-close.svg"
+          alt="close menu"
+          class="close-menu"
+        />
+      </nav>
+    </header>
+    <!-- /////////////// -->
+    <main class="hero">
+      <section class="bright-future">
+        <div class="hero-main-image"></div>
+        <article class="hero-content">
+          <h1 class="hero-heading">The Bright Future of Web 3.0?</h1>
+          <div class="hero-read-more">
+            <p class="paragraph">
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of the people. But is
+              it really fulfilling its promise?
+            </p>
+            <button class="read-more-btn">read more</button>
+          </div>
+        </article>
+      </section>
+      <!-- //////////// -->
+      <section class="new-news">
+        <h2 class="news-heading">New</h2>
+        <h3 class="news-title">Hydrogen VS Electric Cars</h3>
+        <p class="paragraph">Will hydrogen-fueled cars ever catch up to EVs?</p>
+        <hr class="break-line" />
+        <!-- ////// -->
+        <h3 class="news-title">The Downsides of AI Artistry</h3>
+        <p class="paragraph">
+          What are the possible adverse effects of on-demand AI image
+          generation?
+        </p>
+        <hr class="break-line" />
+        <!-- ////// -->
+        <h3 class="news-title">Is VC Funding Drying Up?</h3>
+        <p class="paragraph">
+          Private funding by VC firms is down 50% YOY. We take a look at what
+          that means.
+        </p>
+      </section>
+      <!-- ////////// -->
+      <section class="other-news">
+        <!-- //// -->
+        <div class="news">
+          <img
+            src="./images/image-retro-pcs.jpg"
+            alt="retro pcs"
+            class="news-image"
+            width="50"
+            height="70"
+          />
+          <div class="news-content">
+            <h3 class="news-number">01</h3>
+            <h4 class="other-news-title">Reviving Retro PCs</h4>
+            <p class="paragraph">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </div>
+        </div>
+        <!-- ///// -->
+        <div class="news">
+          <img
+            src="./images/image-top-laptops.jpg"
+            alt="retro pcs"
+            class="news-image"
+            width="50"
+            height="70"
+          />
+          <div class="news-content">
+            <h3 class="news-number">02</h3>
+            <h4 class="other-news-title">Top 10 Laptops of 2022</h4>
+            <p class="paragraph">
+              Our best picks for various needs and budgets.
+            </p>
+          </div>
+        </div>
+        <!-- ///// -->
+        <div class="news">
+          <img
+            src="./images/image-gaming-growth.jpg"
+            alt="retro pcs"
+            class="news-image"
+            width="50"
+            height="70"
+          />
+          <div class="news-content">
+            <h3 class="news-number">03</h3>
+            <h4 class="other-news-title">The Growth of Gaming</h4>
+            <p class="paragraph">
+              How the pandemic has sparked fresh opportunities.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
